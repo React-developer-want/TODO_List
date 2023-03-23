@@ -1,6 +1,8 @@
-const express = require('express');
+// const express = require('express');
 require('./db/connect.js')
-const app = express();
+// const app = express();
+const app= require('./index')
+
 
 
 
