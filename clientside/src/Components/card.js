@@ -4,7 +4,6 @@ const Card = (props) => {
   return (
     <>
     <div className='w-full border border-top-0 border-left-0 border-right-0 p-2 my-3'>
-
       
       <div className="input-group mb-3 ">
 

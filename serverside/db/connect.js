@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-const db= process.env.DB_LINK.replace(
+const uri= process.env.DB_LINK.replace(
 '<password>', process.env.DB_PASSWORD
 );
 
-mongoose.connect(db).then(()=>{
+mongoose.connect(uri).then(()=>{
     console.log('DB connected successfully')
 }).catch((err)=>{
     console.log('Error detected', err)

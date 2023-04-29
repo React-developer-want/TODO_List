@@ -1,13 +1,22 @@
 const mongoose = require('mongoose');
 
 const taskSchema = new mongoose.Schema({
-  userName: String,
+  userName: {
+    type: String,
+    unique: true,
+    required: true
+  },
   tasks: [
     {
       // Key can be of any name and the value we assign according to the type
-      name: String,
-      level: String,
-      status: String,
+      title: {
+        type: String,
+        required: true
+      },
+      description: {
+        type: String,
+        required: true
+      },
       created_at: {
         type: Date,
         default: Date.now(),

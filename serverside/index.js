@@ -4,7 +4,7 @@ const taskRouters= require('./routers/task-routers');
 const cors= require('cors');
 const morgan= require('morgan');
 
-// -------------MIDDLEWARES----------
+// -------------MIDDLEWARE----------
 app.use(express.json());
 app.use(cors());
 app.use(morgan("dev"));
