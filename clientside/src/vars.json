@@ -1,5 +1,5 @@
 {
-  "REACT_APP_GET_USER_TASKS": "https://todolistcumnotetaker.onrender.com/api/v1/tasks/user-tasks",
-  "REACT_APP_CREATE_TASK": "https://todolistcumnotetaker.onrender.com/api/v1/tasks/create-task",
-  "REACT_APP_DELETE_USER_TASK": "https://todolistcumnotetaker.onrender.com/api/v1/tasks/delete-task"
+  "API_GET_USER_TASKS": "https://todolistcumnotetaker.onrender.com/api/v1/tasks/user-tasks",
+  "API_CREATE_TASK": "https://todolistcumnotetaker.onrender.com/api/v1/tasks/create-task",
+  "API_DELETE_USER_TASK": "https://todolistcumnotetaker.onrender.com/api/v1/tasks/delete-task"
 }
